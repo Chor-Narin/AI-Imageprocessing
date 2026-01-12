@@ -1,0 +1,53 @@
+# Large datasets
+
+# Ignore heavy datasets
+# OID/Dataset_enhanced/images/
+# OID/Dataset_enhanced/labels/
+# OID/Dataset/
+# OID/database/
+# OID/csv_folder/
+
+
+OID/csv_folder/
+OID/Dataset_enhanced/images/
+OID/Dataset_enhanced/labels/
+# === Option 1 - Most clear & explicit (recommended) ===
+Dataset_enhanced/images/
+Dataset_enhanced/labels/
+
+
+
+# Training artifacts
+runs/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# YOLO / training junk
+runs/
+weights/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.pb
+*.tflite
+
+# Temp / cache
+__pycache__/
+*.pyc
+*.log
+*.cache
