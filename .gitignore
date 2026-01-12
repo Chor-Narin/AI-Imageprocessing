@@ -14,12 +14,6 @@ images/
 # =====================================
 # Model weights & training artifacts
 # =====================================
-*.pt
-*.pth
-*.weights
-best.pt
-last.pt
-weights/
 
 *.onnx
 *.pb
