@@ -1,0 +1,48 @@
+# =====================================
+# Large datasets & heavy folders
+# =====================================
+OID/csv_folder/
+OID/Dataset/
+OID/database/
+
+# Also catch runs folder anywhere (very common in YOLO)
+
+OID/Dataset_enhanced/labels/
+Dataset_enhanced/labels/
+images/
+
+# =====================================
+# Model weights & training artifacts
+# =====================================
+*.pt
+*.pth
+*.weights
+best.pt
+last.pt
+weights/
+
+*.onnx
+*.pb
+*.tflite
+
+# =====================================
+# Python & environment
+# =====================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================================
+# OS / editor / temp files
+# =====================================
+.DS_Store
+Thumbs.db
+*.log
+*.cache
+
+# =====================================
+# IDE / editor folders
+# =====================================
+.vscode/
+.idea/
